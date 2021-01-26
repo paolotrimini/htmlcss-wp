@@ -30,11 +30,12 @@
 #navigation {
   width: 50%;
   margin-left: 0;
+  min-width: 530px;
 }
 
 #navigation li{
   display: inline-block;
-  margin: 20px 15px 0 0;
+  margin: 20px 10px 0 0;
   list-style-type: none; /* per browser piu datati */
   text-decoration: none;
   /*font-family: "Josefin Sans";*/
@@ -61,8 +62,10 @@ a {
   margin-bottom: 30px;
   border-radius: 10px;
   background-image: url(../img/banner.jpg);
+  background-repeat: no-repeat;
   background-position: center;
-  background-size: 90%;
+  background-size: cover;
+  position: relative;
 }
 
 .overlay {
@@ -71,20 +74,32 @@ a {
   height: 100%;
 }
 
+.top-text {
+  position: absolute;
+  top: 60%;
+  left: 5%;
+}
+
 .top-block .titolo {
-  font-size: 23px;
+  font-size: 28px;
   color: white;
 }
 
 .top-block .sottotitolo {
-  font-size: 12px;
+  font-size: 16px;
   color: white;
 }
 
 .middle-block {
-  background-color: #87CEFA;
+  /*background-color: #87CEFA;*/
   height: 100px;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
+}
+
+h3 {
+  font-size: 13px;
+  font-weight: normal;
+  color: dimgrey;
 }
 
 /* sezione float */
@@ -120,7 +135,6 @@ footer{
   margin-bottom: 10px;
   text-align: center;
 }
-
 
 .icon {
   color: red;
