@@ -18,10 +18,23 @@
 
 /* regole header */
 
+#logo {
+  width: 100px;
+  margin: 10px;
+  background: white;
+  vertical-align: middle;
+  padding: 0 10px;
+  border-right: 1px solid #DCDCDC;
+}
+
+#navigation li{
+  display: inline-block;
+}
+
 header{
   height: 100px;
   margin: 30px 0;
-  background-color: #FF69B4;
+  /*background-color: #FF69B4;*/
 }
 
 /* regole main */
