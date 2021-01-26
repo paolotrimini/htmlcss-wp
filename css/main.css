@@ -20,7 +20,7 @@
 
 #logo {
   width: 130px;
-  margin: 10px 10px 10px 0;
+  margin: 5px 10px 10px 0;
   background: white;
   vertical-align: middle;
   padding: 0 10px 0 0;
@@ -102,13 +102,41 @@ h3 {
   color: dimgrey;
 }
 
-/* sezione float */
+/* regole sezione float */
 
 .aside {
   float: left;
   width: 20%;
   height: 500px;
-  background-color: #87CEFA;
+  /*background-color: #87CEFA;*/
+}
+
+.box-aside {
+  border-radius: 10px;
+  width: 100%;
+  height: 30%;
+/*  background-color: orange;*/
+}
+
+.overlay-aside {
+  background-color: rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  height: 100%;
+}
+
+.box-aside.left {
+  background-image: url(../img/img-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.box-aside.right {
+  background-image: url(../img/img-3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
 }
 
 .central-section {
