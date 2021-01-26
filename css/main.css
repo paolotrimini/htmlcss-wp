@@ -1,0 +1,72 @@
+/* regole generali */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body {
+  background-color: orange;
+} */
+
+#container{
+  width: 80%;
+  margin: 0 10%;
+}
+
+
+/* regole header */
+
+header{
+  height: 100px;
+  margin: 30px 0;
+  background-color: #FF69B4;
+}
+
+/* regole main */
+
+.top-block {
+  background-color: #F0E68C;
+  height: 400px;
+  margin-bottom: 30px;
+}
+
+.middle-block {
+  height: 100px;
+  background-color: #87CEFA;
+  margin-bottom: 20px;
+}
+
+/* sezione float */
+
+.aside {
+  float: left;
+  width: 20%;
+  height: 500px;
+  background-color: #87CEFA;
+}
+
+.central-section {
+  float: left;
+  width: 50%;
+  margin: 0 5%;
+  background-color: #87CEFA;
+  height: 500px;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+  /* background-color: #4682B4; */
+}
+
+/* sezione footer */
+
+footer{
+  background-color: #4B0082;
+  height: 70px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
