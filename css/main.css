@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* body {
@@ -19,22 +20,38 @@
 /* regole header */
 
 #logo {
-  width: 100px;
-  margin: 10px;
+  width: 130px;
+  margin: 10px 10px 10px 0;
   background: white;
   vertical-align: middle;
-  padding: 0 10px;
+  padding: 0 10px 0 0;
   border-right: 1px solid #DCDCDC;
+}
+
+#navigation {
+  width: 50%;
+  margin-left: 0;
 }
 
 #navigation li{
   display: inline-block;
+  margin: 20px 15px 0 0;
+  list-style-type: none; /* per browser piu datati */
+  text-decoration: none;
+  /*font-family: "Josefin Sans";*/
+  font-size: 12px;
 }
+
 
 header{
   height: 100px;
   margin: 30px 0;
   /*background-color: #FF69B4;*/
+}
+
+a {
+  text-decoration: none;
+  color: dimgrey;
 }
 
 /* regole main */
@@ -43,6 +60,7 @@ header{
   background-color: #F0E68C;
   height: 400px;
   margin-bottom: 30px;
+  border-radius: 10px;
 }
 
 .middle-block {
@@ -78,8 +96,14 @@ header{
 /* sezione footer */
 
 footer{
-  background-color: #4B0082;
+  /*background-color: #4B0082;*/
   height: 70px;
-  margin-top: 20px;
-  margin-bottom: 30px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+
+.icon {
+  color: red;
 }
