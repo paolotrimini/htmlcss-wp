@@ -16,7 +16,6 @@
   margin: 0 10%;
 }
 
-
 /* regole header */
 
 #logo {
@@ -57,15 +56,34 @@ a {
 /* regole main */
 
 .top-block {
-  background-color: #F0E68C;
+/* background-color: #F0E68C;*/
   height: 400px;
   margin-bottom: 30px;
   border-radius: 10px;
+  background-image: url(../img/banner.jpg);
+  background-position: center;
+  background-size: 90%;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  height: 100%;
+}
+
+.top-block .titolo {
+  font-size: 23px;
+  color: white;
+}
+
+.top-block .sottotitolo {
+  font-size: 12px;
+  color: white;
 }
 
 .middle-block {
-  height: 100px;
   background-color: #87CEFA;
+  height: 100px;
   margin-bottom: 20px;
 }
 
